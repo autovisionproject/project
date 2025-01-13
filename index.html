@@ -106,19 +106,19 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-4 has-text-centered">Environment settings</h2>
-      <!-- Images in a row using flexbox -->
-      <div class="image-row" style="display: flex; justify-content: center; gap: 0;">
-        <div class="image-item" style="flex: 1; text-align: center;">
-          <img src="static/images/town.png" alt="First Image" style="width: 50%; height: auto;" />
+      <h2 class="title is-4 has-text-centered"> Environment settings </h2>
+      <!-- Images with no space, stacked vertically -->
+      <div class="image-row" style="display: block; text-align: center;">
+        <div class="image-item" style="margin: 0 auto;">
+          <img src="static/images/town.png" alt="First Image" style="width: 50%; height: auto; margin: 0 auto;" />
         </div>
-        <div class="image-item" style="flex: 1; text-align: center;">
-          <img src="static/images/town4.png" alt="Second Image" style="width: 51%; height: auto;" />
+        <div class="image-item" style="margin: 0 auto;">
+          <img src="static/images/town4.png" alt="Second Image" style="width: 51%; height: auto; margin: 0 auto;" />
+        <h2 class="subtitle is-6 has-text-centered">
+          Visualizing the testing environment across all towns (Town01 to Town05) under test weather conditions..
+        </h2>
         </div>
       </div>
-      <h2 class="subtitle is-6 has-text-centered">
-        Visualizing the testing environment across all towns (Town01 to Town05) under test weather conditions..
-      </h2>
     </div>
   </div>
 </section>
@@ -324,22 +324,24 @@
   </div>
 </section>
 
-<!-- Image carousel -->
+<!-- Section for images -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel" style="display: flex; justify-content: space-between; align-items: center;">
-        <div class="item" style="flex: 1; text-align: center; padding: 0 10px;">
+      <h2 class="title is-4 has-text-centered">Comparing Training Results</h2>
+      <!-- Images in one row -->
+      <div class="image-row" style="display: flex; justify-content: center; gap: 10px;">
+        <div class="image-item">
           <!-- First image -->
-          <img src="static/images/reward.png" alt="Image 1" style="width: 100%; height: auto;" />
+          <img src="static/images/reward.png" alt="Image 1" style="width: 30%; height: auto;" />
         </div>
-        <div class="item" style="flex: 1; text-align: center; padding: 0 10px;">
+        <div class="image-item">
           <!-- Second image -->
-          <img src="static/images/critic_loss.png" alt="Image 2" style="width: 100%; height: auto;" />
+          <img src="static/images/critic_loss.png" alt="Image 2" style="width: 30%; height: auto;" />
         </div>
-        <div class="item" style="flex: 1; text-align: center; padding: 0 10px;">
+        <div class="image-item">
           <!-- Third image -->
-          <img src="static/images/policy_loss.png" alt="Image 3" style="width: 100%; height: auto;" />
+          <img src="static/images/policy_loss.png" alt="Image 3" style="width: 30%; height: auto;" />
         </div>
       </div>
       <!-- Common Subtitle -->
@@ -349,9 +351,7 @@
     </div>
   </div>
 </section>
-<!-- End image carousel -->
-
-
+<!-- End image section -->
   
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
