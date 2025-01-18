@@ -1,5 +1,4 @@
-# Academic Project Page Template
-This is an academic paper project page template.
+# Towards Generalized and Safer Urban Navigation Using Diffusion-Enhanced Deep Reinforcement Learning
 
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
