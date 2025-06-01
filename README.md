@@ -1,1 +1,1 @@
-## Towards Generalized and Safer Urban Autonomous Navigation Using Diffusion-Guided Deep Reinforcement Learning
+## Beyond the Map: Learning to Navigate Unseen Urban Dynamics Using Diffusion-Guided Deep Reinforcement Learning
